@@ -1,0 +1,311 @@
+Converting script [1 / 44]	[\Spotlightor Assets\Scripts\Configure\EasyConfigureFloatKeyboardSetter.cs]
+	Fragments : 2
+		[ 0] : Line:   18	InputMethod   GetKeyDown          	(increaseKey)
+		[ 1] : Line:   20	InputMethod   GetKeyDown          	(decreaseKey)
+
+Converting script [2 / 44]	[\Spotlightor Assets\Scripts\Configure\EasyConfigurePanel.cs]
+	Fragments : 1
+		[ 0] : Line:  111	InputMethod   GetKeyDown          	(showHideKey)
+
+Converting script [3 / 44]	[\Spotlightor Assets\Scripts\Dev & Debug\EasyDebugGui.cs]
+	Fragments : 4
+		[ 0] : Line:   19	InputMethod   GetAxis             	(axisName)
+		[ 1] : Line:  121	InputMethod   GetButtonDown       	(gainFocusButton)
+		[ 2] : Line:  123	InputMethod   GetButtonDown       	(loseFocusButton)
+		[ 3] : Line:  136	InputMethod   GetButtonDown       	(submitButton)
+
+Converting script [4 / 44]	[\Spotlightor Assets\Scripts\Dev & Debug\InputButtonEventTrigger.cs]
+	Fragments : 2
+		[ 0] : Line:   13	InputMethod   GetButtonDown       	(buttonName)
+		[ 1] : Line:   15	InputMethod   GetButtonUp         	(buttonName)
+
+Converting script [5 / 44]	[\Spotlightor Assets\Scripts\Dev & Debug\KeyboardEventTrigger.cs]
+	Fragments : 3
+		[ 0] : Line:   14	InputMethod   GetKeyDown          	(key)
+		[ 1] : Line:   17	InputMethod   GetKeyDown          	(key)
+		[ 2] : Line:   19	InputMethod   GetKeyUp            	(key)
+
+Converting script [6 / 44]	[\Spotlightor Assets\Scripts\Dev & Debug\SendMessageByKey.cs]
+	Fragments : 1
+		[ 0] : Line:   26	InputMethod   GetKeyDown          	(keyMsg.key)
+
+Converting script [7 / 44]	[\Spotlightor Assets\Scripts\Dev & Debug\Stats.cs]
+	Fragments : 1
+		[ 0] : Line:   21	InputMethod   GetKeyDown          	(visibilitySwitchKey)
+
+Converting script [8 / 44]	[\Spotlightor Assets\Scripts\Finite State Machine\General\Example\FsmExample.cs]
+	Fragments : 1
+		[ 0] : Line:   35	InputMethod   GetKeyDown          	(KeyCode.Space)
+
+Converting script [9 / 44]	[\Spotlightor Assets\Scripts\Generic\Input\ButtonCombo.cs]
+	Fragments : 2
+		[ 0] : Line:   15	InputProperty anyKeyDown          
+		[ 1] : Line:   16	InputMethod   GetKeyDown          	(buttonSequence [currentInputIndex])
+
+Converting script [10 / 44]	[\Spotlightor Assets\Scripts\Generic\Input\KeyCharCombo.cs]
+	Fragments : 1
+		[ 0] : Line:   15	InputProperty anyKeyDown          
+
+Converting script [11 / 44]	[\Spotlightor Assets\Scripts\gui\CustomCursorByTag.cs]
+	Fragments : 1
+		[ 0] : Line:   36	InputProperty mousePosition       
+
+Converting script [12 / 44]	[\Spotlightor Assets\Scripts\gui\CustomCursorOnMouseOver.cs]
+	Fragments : 7
+		[ 0] : Line:   13	Other mod.	[Cursor.visible]
+		[ 1] : Line:   15	Other mod.	[Screen.showCursor]
+		[ 2] : Line:   24	Other mod.	[Cursor.visible]
+		[ 3] : Line:   26	Other mod.	[Screen.showCursor]
+		[ 4] : Line:   35	Other mod.	[Cursor.visible]
+		[ 5] : Line:   37	Other mod.	[Screen.showCursor]
+		[ 6] : Line:   49	InputProperty mousePosition       
+
+Converting script [13 / 44]	[\Spotlightor Assets\Scripts\gui\MouseIntro.cs]
+	Fragments : 1
+		[ 0] : Line:   45	InputProperty mousePosition       
+
+Converting script [14 / 44]	[\Spotlightor Assets\Scripts\gui\ObjectDirectionalDragger.cs]
+	Fragments : 9
+		[ 0] : Line:   90	InputProperty touchCount          
+		[ 1] : Line:   90	InputProperty touches             
+		[ 2] : Line:   92	InputMethod   GetMouseButtonDown  	(0)
+		[ 3] : Line:   99	InputProperty touchCount          
+		[ 4] : Line:  101	InputMethod   GetMouseButtonUp    	(0)
+		[ 5] : Line:  107	InputProperty touchCount          
+		[ 6] : Line:  108	InputProperty touches             
+		[ 7] : Line:  110	InputProperty mousePosition       
+		[ 8] : Line:  110	InputProperty mousePosition       
+
+Converting script [15 / 44]	[\Spotlightor Assets\Scripts\gui\ObjectDragger.cs]
+	Fragments : 9
+		[ 0] : Line:   73	InputProperty touchCount          
+		[ 1] : Line:   73	InputProperty touches             
+		[ 2] : Line:   75	InputMethod   GetMouseButtonDown  	(0)
+		[ 3] : Line:   82	InputProperty touchCount          
+		[ 4] : Line:   84	InputMethod   GetMouseButtonUp    	(0)
+		[ 5] : Line:   90	InputProperty touchCount          
+		[ 6] : Line:   91	InputProperty touches             
+		[ 7] : Line:   93	InputProperty mousePosition       
+		[ 8] : Line:   93	InputProperty mousePosition       
+
+Converting script [16 / 44]	[\Spotlightor Assets\Scripts\gui\sUiButtonKeyBinding.cs]
+	Fragments : 2
+		[ 0] : Line:   13	InputMethod   GetKeyDown          	(keyCode)
+		[ 1] : Line:   15	InputMethod   GetKeyUp            	(keyCode)
+
+Converting script [17 / 44]	[\Spotlightor Assets\Scripts\gui\Utility\ScaleByPhysicalScreenSize.cs]
+	Fragments : 1
+		[ 0] : Line:   24	Other mod.	[Screen.dpi]
+
+Converting script [18 / 44]	[\Spotlightor Assets\Scripts\input\InputAxisButton.cs]
+	Fragments : 4
+		[ 0] : Line:   38	InputMethod   GetAxis             	(axisName)
+		[ 1] : Line:   40	InputMethod   GetAxis             	(axisName)
+		[ 2] : Line:   59	InputMethod   GetAxis             	(axisName)
+		[ 3] : Line:   59	InputMethod   GetAxisRaw          	(axisName)
+
+Converting script [19 / 44]	[\Spotlightor Assets\Scripts\input\KeyboardDirectionInput.cs]
+	Fragments : 2
+		[ 0] : Line:   22	InputMethod   GetAxisRaw          	("Horizontal")
+		[ 1] : Line:   23	InputMethod   GetAxisRaw          	("Vertical")
+
+Converting script [20 / 44]	[\Spotlightor Assets\Scripts\input\KeyboardIndexInput.cs]
+	Fragments : 1
+		[ 0] : Line:   23	InputMethod   GetKeyDown          	(indexKeys[i])
+
+Converting script [21 / 44]	[\Spotlightor Assets\Scripts\input\MouseMovementInput.cs]
+	Fragments : 4
+		[ 0] : Line:   23	InputMethod   GetMouseButton      	(0)
+		[ 1] : Line:   24	InputMethod   GetMouseButton      	(0)
+		[ 2] : Line:   25	InputMethod   GetAxis             	("Mouse X")
+		[ 3] : Line:   26	InputMethod   GetAxis             	("Mouse Y")
+
+Converting script [22 / 44]	[\Spotlightor Assets\Scripts\input\MouseScreenPositionInput.cs]
+	Fragments : 2
+		[ 0] : Line:   24	InputProperty mousePosition       
+		[ 1] : Line:   25	InputProperty mousePosition       
+
+Converting script [23 / 44]	[\Spotlightor Assets\Scripts\input\MouseWheelInput.cs]
+	Fragments : 1
+		[ 0] : Line:   20	InputMethod   GetAxis             	("Mouse ScrollWheel")
+
+Converting script [24 / 44]	[\Spotlightor Assets\Scripts\input\CustomInput\CustomInputBehavior.cs]
+	Fragments : 3
+		[ 0] : Line:   12	InputMethod   GetKey              	(inputAxis.PossitiveKey)
+		[ 1] : Line:   14	InputMethod   GetKey              	(inputAxis.NegativeKey)
+		[ 2] : Line:   18	InputMethod   GetAxisRaw          	(inputAxis.Setting.altInputAxisName)
+
+Converting script [25 / 44]	[\Spotlightor Assets\Scripts\input\Vinput\VinputAxisByInput.cs]
+	Fragments : 1
+		[ 0] : Line:   11	InputMethod   GetAxis             	(axisName)
+
+Converting script [26 / 44]	[\Spotlightor Assets\Scripts\input\Vinput\VinputButtonByInput.cs]
+	Fragments : 1
+		[ 0] : Line:   11	InputMethod   GetButton           	(buttonName)
+
+Converting script [27 / 44]	[\Spotlightor Assets\Scripts\input\VirtualGamepad\SwipeVirtualJoystick.cs]
+	Fragments : 6
+		[ 0] : Line:  121	InputProperty touchCount          
+		[ 1] : Line:  122	Other mod.	[Touch]
+		[ 2] : Line:  122	InputMethod   GetTouch            	(i)
+		[ 3] : Line:  132	InputProperty touchCount          
+		[ 4] : Line:  133	Other mod.	[Touch]
+		[ 5] : Line:  133	InputMethod   GetTouch            	(i)
+
+Converting script [28 / 44]	[\Spotlightor Assets\Scripts\input\VirtualGamepad\VirtualJoystick.cs]
+	Fragments : 14
+		[ 0] : Line:   72	InputProperty touchCount          
+		[ 1] : Line:   84	InputProperty touchCount          
+		[ 2] : Line:   85	Other mod.	[Touch]
+		[ 3] : Line:   85	InputMethod   GetTouch            	(i)
+		[ 4] : Line:   94	InputProperty touchCount          
+		[ 5] : Line:   95	Other mod.	[Touch]
+		[ 6] : Line:   95	InputMethod   GetTouch            	(i)
+		[ 7] : Line:  134	InputMethod   GetMouseButton      	(0)
+		[ 8] : Line:  134	InputProperty mousePosition       
+		[ 9] : Line:  136	InputProperty mousePosition       
+		[10] : Line:  136	InputProperty mousePosition       
+		[11] : Line:  139	InputMethod   GetMouseButton      	(0)
+		[12] : Line:  142	InputProperty mousePosition       
+		[13] : Line:  142	InputProperty mousePosition       
+
+Converting script [29 / 44]	[\Spotlightor Assets\Scripts\input\VirtualGamepad\VirtualJoystickBase.cs]
+	Fragments : 1
+		[ 0] : Line:   12	Other mod.	[Screen.dpi]
+
+Converting script [30 / 44]	[\Spotlightor Assets\Scripts\interaction\InputMouseRealClickListener.cs]
+	Fragments : 4
+		[ 0] : Line:   15	InputMethod   GetMouseButtonDown  	(0)
+		[ 1] : Line:   17	InputProperty mousePosition       
+		[ 2] : Line:   18	InputMethod   GetMouseButtonUp    	(0)
+		[ 3] : Line:   20	InputProperty mousePosition       
+
+Converting script [31 / 44]	[\Spotlightor Assets\Scripts\interaction\MouseInteractionMessagesSource.cs]
+	Fragments : 2
+		[ 0] : Line:    9	InputMethod   GetMouseButton      	(0)
+		[ 1] : Line:    9	InputProperty mousePosition       
+
+Converting script [32 / 44]	[\Spotlightor Assets\Scripts\interaction\RealClickListener.cs]
+	Fragments : 2
+		[ 0] : Line:   41	Other mod.	[Screen.dpi]
+		[ 1] : Line:   44	Other mod.	[Screen.dpi]
+
+Converting script [33 / 44]	[\Spotlightor Assets\Scripts\interaction\TouchInteractionMessagesSource.cs]
+	Fragments : 5
+		[ 0] : Line:   14	InputProperty simulateMouseWithTouches
+		[ 1] : Line:   26	InputProperty touchCount          
+		[ 2] : Line:   36	InputProperty touchCount          
+		[ 3] : Line:   37	Other mod.	[Touch]
+		[ 4] : Line:   37	InputMethod   GetTouch            	(i)
+
+Converting script [34 / 44]	[\Spotlightor Assets\Scripts\interaction\TouchToMouseEventTranslator.cs]
+	Fragments : 3
+		[ 0] : Line:   14	InputProperty simulateMouseWithTouches
+		[ 1] : Line:   21	Other mod.	[Touch]
+		[ 2] : Line:   21	InputProperty touches             
+
+Converting script [35 / 44]	[\Spotlightor Assets\Scripts\Modules\Command Pattern\Commands\WaitInputButtonCommand.cs]
+	Fragments : 1
+		[ 0] : Line:   16	InputMethod   GetButtonDown       	(buttonName)
+
+Converting script [36 / 44]	[\Spotlightor Assets\Scripts\Modules\Generic UI\GenericButtonClickByInput.cs]
+	Fragments : 1
+		[ 0] : Line:   26	InputMethod   GetButtonDown       	(inputName)
+
+Converting script [37 / 44]	[\Spotlightor Assets\Scripts\Modules\Input Method Detector\HideCursorByInputMethod.cs]
+	Fragments : 1
+		[ 0] : Line:    8	Other mod.	[Cursor.visible]
+
+Converting script [38 / 44]	[\Spotlightor Assets\Scripts\Modules\Input Method Detector\InputMethodDetector.cs]
+	Fragments : 8
+		[ 0] : Line:   62	InputMethod   GetKeyDown          	((KeyCode)
+		[ 1] : Line:  144	InputProperty anyKeyDown          
+		[ 2] : Line:  154	InputMethod   GetMouseButtonDown  	(0)
+		[ 3] : Line:  154	InputMethod   GetMouseButtonDown  	(1)
+		[ 4] : Line:  162	InputMethod   GetAxis             	("Mouse X")
+		[ 5] : Line:  162	InputMethod   GetAxis             	("Mouse Y")
+		[ 6] : Line:  193	InputMethod   GetAxis             	("Joystick Horizontal")
+		[ 7] : Line:  193	InputMethod   GetAxis             	("Joystick Vertical")
+
+Converting script [39 / 44]	[\Spotlightor Assets\Scripts\Modules\Input Method Detector\PointerToggleStandaloneInputModule.cs]
+	Fragments : 2
+		[ 0] : Line:   60	InputMethod   GetButtonDown       	(horizontalAxis)
+		[ 1] : Line:   60	InputMethod   GetButtonDown       	(verticalAxis)
+
+Converting script [40 / 44]	[\Spotlightor Assets\Scripts\Transition\Utilities\TransitionManagerTester.cs]
+	Fragments : 2
+		[ 0] : Line:   25	InputMethod   GetKeyDown          	(KeyCode.I)
+		[ 1] : Line:   27	InputMethod   GetKeyDown          	(KeyCode.O)
+
+Converting script [41 / 44]	[\Spotlightor Assets\Scripts\Utility\HiResScreenShots.cs]
+	Fragments : 1
+		[ 0] : Line:   15	InputMethod   GetKeyDown          	(key)
+
+Converting script [42 / 44]	[\Spotlightor Assets\Scripts\Very Simple\MouseHider.cs]
+	Fragments : 5
+		[ 0] : Line:   12	Other mod.	[Cursor.visible]
+		[ 1] : Line:   14	Other mod.	[Screen.showCursor]
+		[ 2] : Line:   20	InputMethod   GetKeyDown          	(showMouseKey)
+		[ 3] : Line:   22	Other mod.	[Cursor.visible]
+		[ 4] : Line:   24	Other mod.	[Screen.showCursor]
+
+Converting script [43 / 44]	[\Standard\PostProcessingStack\Utilities\CustomMotionTexture\ExampleWheelController.cs]
+	Fragments : 2
+		[ 0] : Line:   23	InputMethod   GetKey              	(KeyCode.UpArrow)
+		[ 1] : Line:   25	InputMethod   GetKey              	(KeyCode.DownArrow)
+
+Converting script [44 / 44]	[\_LD40 Project Assets\Scripts\Modules\Player\PlayerInput.cs]
+	Fragments : 3
+		[ 0] : Line:   12	InputMethod   GetAxis             	("Horizontal")
+		[ 1] : Line:   12	InputMethod   GetAxis             	("Vertical")
+		[ 2] : Line:   17	InputMethod   GetButton           	("Jump")
+
+
+44 scripts modified!
+Overwriting actual scripts...
+	[0 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\Configure\EasyConfigureFloatKeyboardSetter.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\Configure\EasyConfigureFloatKeyboardSetter.cs]
+	[1 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\Configure\EasyConfigurePanel.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\Configure\EasyConfigurePanel.cs]
+	[2 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\Dev & Debug\EasyDebugGui.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\Dev & Debug\EasyDebugGui.cs]
+	[3 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\Dev & Debug\InputButtonEventTrigger.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\Dev & Debug\InputButtonEventTrigger.cs]
+	[4 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\Dev & Debug\KeyboardEventTrigger.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\Dev & Debug\KeyboardEventTrigger.cs]
+	[5 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\Dev & Debug\SendMessageByKey.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\Dev & Debug\SendMessageByKey.cs]
+	[6 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\Dev & Debug\Stats.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\Dev & Debug\Stats.cs]
+	[7 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\Finite State Machine\General\Example\FsmExample.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\Finite State Machine\General\Example\FsmExample.cs]
+	[8 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\Generic\Input\ButtonCombo.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\Generic\Input\ButtonCombo.cs]
+	[9 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\Generic\Input\KeyCharCombo.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\Generic\Input\KeyCharCombo.cs]
+	[10 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\gui\CustomCursorByTag.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\gui\CustomCursorByTag.cs]
+	[11 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\gui\CustomCursorOnMouseOver.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\gui\CustomCursorOnMouseOver.cs]
+	[12 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\gui\MouseIntro.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\gui\MouseIntro.cs]
+	[13 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\gui\ObjectDirectionalDragger.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\gui\ObjectDirectionalDragger.cs]
+	[14 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\gui\ObjectDragger.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\gui\ObjectDragger.cs]
+	[15 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\gui\sUiButtonKeyBinding.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\gui\sUiButtonKeyBinding.cs]
+	[16 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\gui\Utility\ScaleByPhysicalScreenSize.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\gui\Utility\ScaleByPhysicalScreenSize.cs]
+	[17 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\input\InputAxisButton.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\input\InputAxisButton.cs]
+	[18 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\input\KeyboardDirectionInput.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\input\KeyboardDirectionInput.cs]
+	[19 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\input\KeyboardIndexInput.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\input\KeyboardIndexInput.cs]
+	[20 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\input\MouseMovementInput.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\input\MouseMovementInput.cs]
+	[21 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\input\MouseScreenPositionInput.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\input\MouseScreenPositionInput.cs]
+	[22 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\input\MouseWheelInput.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\input\MouseWheelInput.cs]
+	[23 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\input\CustomInput\CustomInputBehavior.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\input\CustomInput\CustomInputBehavior.cs]
+	[24 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\input\Vinput\VinputAxisByInput.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\input\Vinput\VinputAxisByInput.cs]
+	[25 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\input\Vinput\VinputButtonByInput.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\input\Vinput\VinputButtonByInput.cs]
+	[26 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\input\VirtualGamepad\SwipeVirtualJoystick.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\input\VirtualGamepad\SwipeVirtualJoystick.cs]
+	[27 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\input\VirtualGamepad\VirtualJoystick.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\input\VirtualGamepad\VirtualJoystick.cs]
+	[28 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\input\VirtualGamepad\VirtualJoystickBase.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\input\VirtualGamepad\VirtualJoystickBase.cs]
+	[29 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\interaction\InputMouseRealClickListener.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\interaction\InputMouseRealClickListener.cs]
+	[30 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\interaction\MouseInteractionMessagesSource.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\interaction\MouseInteractionMessagesSource.cs]
+	[31 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\interaction\RealClickListener.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\interaction\RealClickListener.cs]
+	[32 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\interaction\TouchInteractionMessagesSource.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\interaction\TouchInteractionMessagesSource.cs]
+	[33 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\interaction\TouchToMouseEventTranslator.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\interaction\TouchToMouseEventTranslator.cs]
+	[34 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\Modules\Command Pattern\Commands\WaitInputButtonCommand.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\Modules\Command Pattern\Commands\WaitInputButtonCommand.cs]
+	[35 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\Modules\Generic UI\GenericButtonClickByInput.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\Modules\Generic UI\GenericButtonClickByInput.cs]
+	[36 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\Modules\Input Method Detector\HideCursorByInputMethod.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\Modules\Input Method Detector\HideCursorByInputMethod.cs]
+	[37 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\Modules\Input Method Detector\InputMethodDetector.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\Modules\Input Method Detector\InputMethodDetector.cs]
+	[38 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\Modules\Input Method Detector\PointerToggleStandaloneInputModule.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\Modules\Input Method Detector\PointerToggleStandaloneInputModule.cs]
+	[39 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\Transition\Utilities\TransitionManagerTester.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\Transition\Utilities\TransitionManagerTester.cs]
+	[40 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\Utility\HiResScreenShots.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\Utility\HiResScreenShots.cs]
+	[41 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Spotlightor Assets\Scripts\Very Simple\MouseHider.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Spotlightor Assets\Scripts\Very Simple\MouseHider.cs]
+	[42 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\Standard\PostProcessingStack\Utilities\CustomMotionTexture\ExampleWheelController.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\Standard\PostProcessingStack\Utilities\CustomMotionTexture\ExampleWheelController.cs]
+	[43 / 44] from  [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/CF2-Data/Script-Backups/2018-07-02-00-09\Assets-After/\_LD40 Project Assets\Scripts\Modules\Player\PlayerInput.cs] to [D:/2018#BIDO#CODO/Spider TAptap/hunt-together-src (1)/Assets/\_LD40 Project Assets\Scripts\Modules\Player\PlayerInput.cs]
+
+Overwriting COMPLETED!
